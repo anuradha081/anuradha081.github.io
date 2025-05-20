@@ -37,24 +37,40 @@
   </div>
 
   <!-- Header -->
-  <header class="bg-black text-white py-6 shadow-md sticky top-0 z-10">
-  <div class="max-w-5xl mx-auto px-4 flex items-center justify-between">
-    <a href="#" class="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Anuradha</a>
-    <!-- Mobile Menu Button -->
-    <button id="menu-btn" class="sm:hidden text-white text-2xl focus:outline-none">
-      <i class="fas fa-bars"></i>
-    </button>
-    <!-- Navigation Links -->
-    <nav id="nav-menu" class="hidden sm:flex flex-col sm:flex-row sm:items-center sm:space-x-4 text-sm sm:text-base absolute sm:static top-full left-0 w-full bg-black sm:bg-transparent px-4 py-4 sm:p-0 z-20">
-      <a href="#about" class="block px-3 py-2 rounded hover:bg-gray-800 transition">About</a>
-      <a href="#education" class="block px-3 py-2 rounded hover:bg-gray-800 transition">Education</a>
-      <a href="#experience" class="block px-3 py-2 rounded hover:bg-gray-800 transition">Experience</a>
-      <a href="#skills" class="block px-3 py-2 rounded hover:bg-gray-800 transition">Skills</a>
-      <a href="#projects" class="block px-3 py-2 rounded hover:bg-gray-800 transition">Projects</a>
-      <a href="#contact" class="block px-3 py-2 rounded hover:bg-gray-800 transition">Contact</a>
-    </nav>
-  </div>
-</header>
+  <header class="bg-black/90 backdrop-blur-sm text-white py-4 shadow-lg sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Anuradha</a>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#about" class="px-3 py-2 rounded-lg hover:bg-gray-800/50 transition-all duration-300 relative group">
+          About
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a href="#education" class="px-3 py-2 rounded-lg hover:bg-gray-800/50 transition-all duration-300 relative group">
+          Education
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a href="#experience" class="px-3 py-2 rounded-lg hover:bg-gray-800/50 transition-all duration-300 relative group">
+          Experience
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a href="#skills" class="px-3 py-2 rounded-lg hover:bg-gray-800/50 transition-all duration-300 relative group">
+          Skills
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a href="#projects" class="px-3 py-2 rounded-lg hover:bg-gray-800/50 transition-all duration-300 relative group">
+          Projects
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a href="#contact" class="px-3 py-2 rounded-lg hover:bg-gray-800/50 transition-all duration-300 relative group">
+          Contact
+          <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+        </a>
+      </nav>
+      <button class="md:hidden text-white focus:outline-none">
+        <i class="fas fa-bars text-xl"></i>
+      </button>
+    </div>
+  </header>
 
   <main class="max-w-6xl mx-auto px-4 py-12 space-y-20">
     <!-- About Section -->
@@ -73,7 +89,7 @@
               <a href="#contact" class="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-medium hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                 Contact Me
               </a>
-              <a href="https://drive.google.com/open?id=1W1QxHwgRdW5TWQFhuMLiEJViw43KyI5n&usp=drive_fs" class="px-6 py-3 border border-gray-300 text-gray-700 rounded-full font-medium hover:bg-gray-100 transition-all duration-300 transform hover:-translate-y-1">
+              <a href="#" class="px-6 py-3 border border-gray-300 text-gray-700 rounded-full font-medium hover:bg-gray-100 transition-all duration-300 transform hover:-translate-y-1">
                 Download CV
               </a>
             </div>
@@ -237,7 +253,7 @@
                 </div>
                 <div>
                   <p class="text-gray-500 text-sm">Email</p>
-                  <p class="font-medium">a.anuradhakgloc027@gmail.com</p>
+                  <p class="font-medium">your.email@example.com</p>
                 </div>
               </div>
               <div class="flex items-center">
@@ -284,23 +300,17 @@
     </section>
   </main>
 
-  <footer class="bg-black text-white text-center py-4 mt-8">
-    <div class="max-w-6xl mx-auto px-4">
-      <div class="flex flex-col md:flex-row justify-between items-center">
-        <div class="mb-4 md:mb-0">
-          <p class="text-white-400">&copy; 2025 Anuradha. All rights reserved.</p>
-        </div>
-        <div class="flex space-x-6">
-          <a href="https://www.linkedin.com/in/anuradha-kumari-348179317/" class="text-gray-400 hover:text-cyan-400 transition" target="_blank">
-            <i class="fab fa-linkedin-in text-xl"></i>
-          </a>
-          <a href="https://twitter.com/@AnuradhaKu45476" class="text-gray-400 hover:text-cyan-400 transition" target="_blank">
-            <i class="fab fa-twitter text-xl"></i>
-          </a>
-          <a href="https://github.com/anuradha081" class="text-gray-400 hover:text-cyan-400 transition" target="_blank">
-            <i class="fab fa-github text-xl"></i>
-          </a>
-        </div>
+   <!-- Footer -->
+  <footer class="bg-gradient-to-r from-cyan-600 to-blue-600 text-white py-8 text-center">
+    <div class="max-w-5xl mx-auto px-4">
+      <p>&copy; 2025 Anuradha. All rights reserved.</p>
+      <div class="flex justify-center space-x-6 mt-4">
+        <a href="https://www.linkedin.com/in/anuradha-kumari-348179317/" class="text-white hover:text-cyan-200 transition" target="_blank">
+          <i class="fab fa-linkedin-in text-xl"></i>
+        </a>
+        <a href="https://twitter.com/@AnuradhaKu45476" class="text-white hover:text-cyan-200 transition" target="_blank">
+          <i class="fab fa-twitter text-xl"></i>
+        </a>
       </div>
     </div>
   </footer>
